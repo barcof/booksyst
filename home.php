@@ -3,155 +3,94 @@
 		//	room
 			if($booksyst_userid === "admin" ){
 				?>
-				<a href="index.php?rooms=rooms_admin">
-					<div id="left4">
-						<img class="img_meeting" width="200px" src="asset/img/logo_meetingroom.png"/>
-						<br>
-						<h2 class="img_text1">MEETING ROOM RESERVATION</h2>
-					</div>
-				</a>
+				<div class="gallery">
+					<a href="index.php?rooms=rooms_admin">
+						<img width="200px" height="100px" src="asset/img/logo_meetingroom.png"/>
+						<h2 class="desc">MEETING ROOM RESERVATION</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?rpa=rpa">
+						<img width="130px" height="100px" src="asset/img/RPA.png"/>
+						<h2 class="desc">OTHER FACILITY</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?tablet=tablet">
+						<img width="220px" height="100px" src="asset/img/OnlineMeeting.PNG"/>
+						<h2 class="desc">LICENSE MEETING</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?ict=ict">
+						<img width="220px" height="100px" src="asset/img/devices.jpg"/>
+						<h2 class="desc">DEVICE RESERVATION</h2>
+					</a>
+				</div>
 				<?php
 			}
 			elseif($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
 				?>
-				<a href="index.php?rooms=rooms">
-					<div id="left4">
-						<img class="img_meeting" width="200px" src="asset/img/logo_meetingroom.png"/>
-						<br>
-						<h2 class="img_text1">MEETING ROOM RESERVATION</h2>
-					</div>
-				</a>
+				<div class="gallery">
+					<a href="index.php?rooms=rooms">
+						<img width="200px" height="100px" src="asset/img/logo_meetingroom.png"/>
+						<h2 class="desc">MEETING ROOM RESERVATION</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?cars=cars">
+						<img width="200px" height="100px" src="asset/img/trans.png"/>
+						<h2 class="desc">TRANSPORTATION RESERVATION</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?rpa=rpa">
+						<img width="200px" height="100px" src="asset/img/RPA.png"/>
+						<h2 class="desc">OTHER FACILITY</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?tablet=tablet">
+						<img width="200px" height="100px" src="asset/img/OnlineMeeting.PNG"/>
+						<h2 class="desc">LICENSE MEETING</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?ict=ict">
+						<img width="200px" height="100px" src="asset/img/devices.jpg"/>
+						<h2 class="desc">DEVICE RESERVATION</h2>
+					</a>
+				</div>
 				<?php
 			}
 			else{
 				?>
-				<a href="index.php?rooms=rooms">
-					<div id="left3">
-						<img class="img_meeting" width="200px" src="asset/img/logo_meetingroom.png"/>
-						<br>
-						<h2 class="img_text1">MEETING ROOM RESERVATION</h2>
-					</div>
-				</a>
-				<?php
-			}
-		
-		//	transport
-			if($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
-				?>
-				<a href="index.php?cars=cars">
-					<div id="middle41">
-						<img class="img_trans" width="250px" src="asset/img/trans.png"/>
-						<br>
-						<h2 class="img_text2">TRANSPORTATION RESERVATION</h2>
-					</div>
-				</a>
-				<?php
-			}
-		
-		//	RPA
-			if($booksyst_userid === "admin" ){
-			?>
-			<a href="index.php?rpa=rpa">
-				<div id="middle42">
-					<img class="img_rpa" width="130px" src="asset/img/RPA.png"/>
-					<br>
-					<h2 class="img_text3">OTHER FACILITY</h2>
+				<div class="gallery">
+					<a href="index.php?rooms=rooms">
+						<img class="img_meeting" width="200px" height="100px" src="asset/img/logo_meetingroom.png"/>
+						<h2 class="desc">MEETING ROOM RESERVATION</h2>
+					</a>
 				</div>
-			</a>
-			<?php
-			}
-			elseif($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
-				?>
-				<a href="index.php?rpa=rpa">
-					<div id="middle42">
-						<img class="img_rpa" width="130px" src="asset/img/RPA.png"/>
-						<br>
-						<h2 class="img_text3">OTHER FACILITY</h2>
-					</div>
-				</a>
+				<div class="gallery">
+					<a href="index.php?rpa=rpa">
+						<img class="img_rpa" width="200px" height="100px" src="asset/img/RPA.png"/>
+						<h2 class="desc">OTHER FACILITY</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?tablet=tablet">
+						<img class="img_tablet" width="200px" height="100px" width="220px" src="asset/img/OnlineMeeting.PNG"/>
+						<h2 class="desc">LICENSE MEETING</h2>
+					</a>
+				</div>
+				<div class="gallery">
+					<a href="index.php?ict=ict">
+						<img class="img_tablet" width="200px" height="100px" width="220px" src="asset/img/devices.jpg"/>
+						<h2 class="desc">DEVICE RESERVATION</h2>
+					</a>
+				</div>
 				<?php
 			}
-			else{
-				?>
-				<a href="index.php?rpa=rpa">
-					<div id="middle3">
-						<img class="img_rpa" width="130px" src="asset/img/RPA.png"/>
-						<br>
-						<h2 class="img_text3">OTHER FACILITY</h2>
-					</div>
-				</a>
-				<?php
-			}
-
-		//	TABLET MEETING LICENSE
-			if($booksyst_userid === "admin" ){
-			?>
-			<a href="index.php?tablet=tablet">
-				<div id="right4">
-					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-					<br>
-					<h2 class="img_text4">LICENSE MEETING</h2>
-				</div>
-			</a>
-			<?php
-			}
-			elseif($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
-				?>
-				<a href="index.php?tablet=tablet">
-					<div id="right4">
-						<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-						<br>
-						<h2 class="img_text4">LICENSE MEETING</h2>
-					</div>
-				</a>
-				<?php
-			}
-			else{
-				?>
-				<a href="index.php?tablet=tablet">
-					<div id="right3">
-						<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-						<br>
-						<h2 class="img_text4">LICENSE MEETING</h2>
-					</div>
-				</a>
-				<?php
-			}
-
-		//	TABLET MEETING LICENSE
-		if($booksyst_userid === "admin" ){
-		?>
-			<!-- <a href="index.php?tablet=tablet">
-				<div id="right4">
-					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-					<br>
-					<h2 class="img_text4">DEVICE RESERVATION</h2>
-				</div>
-			</a> -->
-		<?php
-		}
-		elseif($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
-		?>
-			<!-- <a href="index.php?tablet=tablet">
-				<div id="right4">
-					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-					<br>
-					<h2 class="img_text4">DEVICE RESERVATION</h2>
-				</div>
-			</a> -->
-		<?php
-		}
-		else{
-		?>
-			<!-- <a href="index.php?tablet=tablet">
-				<div id="right3">
-					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
-					<br>
-					<h2 class="img_text4">DEVICE RESERVATION</h2>
-				</div>
-			</a> -->
-			<?php
-		}
 		?>
 			
 </div>

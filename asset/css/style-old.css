@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    /* clear: both; */
+    clear: both;
     overflow: none;
     _font-family: "roboto", "Segoe ui light", sans-serif;
 }
@@ -377,41 +377,8 @@ nav ul li a:hover{
 	transform: scale(1.1);
 }
 .container{
-    padding: 5px;
-    text-align: center;
+	padding: 5px;
 }
-div.gallery {
-    /* border: 1px solid #ccc; */
-    /* float: left; */
-    margin: 5px;
-    padding-top: 50px;
-    display: inline-table;
-    width: 300px;
-    height: 250px;
-    /* width: 300px;
-    height: 100px; */
-}
-div.gallery img {
-    width: 300px;
-    /* height: 200px; */
-    height: 250px;
-    /* height: auto; */
-}
-h2.desc {
-    padding-top: 20px;
-    text-align: center;
-    color: #800000;
-}
-div.gallery a {
-    text-decoration: none;    
-}
-div.gallery:hover {
-    /* border: 1px solid black; */
-    /* text-decoration-line: underline; */
-    /* box-shadow: 0 16px 10px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19); */
-    box-shadow: 0 30px 10px -5px rgba(0, 0, 0, 0.2);
-}
-
 /*#rooms{
 	width:100%;
 	height: 100%;
