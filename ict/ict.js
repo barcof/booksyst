@@ -1751,7 +1751,18 @@ Ext.onReady(function(){
 					constrain		: true,
 					layout			: 'fit',
 					animateTarget	: 'btn_masterict',
-					items			: form_masterict
+					items			: form_masterict,
+					listeners		: {
+						render: function() {
+							var userid = "<?php echo $_SESSION['booksyst_userid']; ?>";
+							// console.log(userid);
+							if (userid != 'clerk-eng') {
+								Ext.getCmp('btn_addmastertype').hide();
+								Ext.getCmp('btn_addmaster').hide();
+								Ext.getCmp('btn_updmaster').hide();
+							}
+						}
+					}
 				});
 			}
 			win_masterict.show();
