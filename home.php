@@ -121,35 +121,35 @@
 		//	TABLET MEETING LICENSE
 		if($booksyst_userid === "admin" ){
 		?>
-			<a href="index.php?tablet=tablet">
+			<!-- <a href="index.php?tablet=tablet">
 				<div id="right4">
 					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
 					<br>
 					<h2 class="img_text4">DEVICE RESERVATION</h2>
 				</div>
-			</a>
+			</a> -->
 		<?php
 		}
 		elseif($booksyst_vuserctrtype == "1" or $booksyst_usertype >= "1" or $booksyst_userid == "mudasir" or $booksyst_userid == "indah" or $booksyst_userid === "ota"){
 		?>
-			<a href="index.php?tablet=tablet">
+			<!-- <a href="index.php?tablet=tablet">
 				<div id="right4">
 					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
 					<br>
 					<h2 class="img_text4">DEVICE RESERVATION</h2>
 				</div>
-			</a>
+			</a> -->
 		<?php
 		}
 		else{
 		?>
-			<a href="index.php?tablet=tablet">
+			<!-- <a href="index.php?tablet=tablet">
 				<div id="right3">
 					<img class="img_tablet" width="220px" src="asset/img/OnlineMeeting.PNG"/>
 					<br>
 					<h2 class="img_text4">DEVICE RESERVATION</h2>
 				</div>
-			</a>
+			</a> -->
 			<?php
 		}
 		?>
